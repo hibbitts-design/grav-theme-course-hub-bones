@@ -1,0 +1,16 @@
+enabled: true
+dropdown:
+  enabled: false
+google_prettify:
+  enabled: true
+mobilemenu_breakpoint: medium
+mobilemenu_position: left
+
+streams:
+ schemes:
+   theme:
+     type: ReadOnlyStream
+     prefixes:
+       '':
+         - user/themes/course-hub-bones
+         - user/themes/bones-vanilla

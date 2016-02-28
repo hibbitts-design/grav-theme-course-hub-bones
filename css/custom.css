@@ -1,0 +1,76 @@
+.up-arrow {
+  text-align: center;
+  font-size: 4em;
+}
+
+.sg-header {
+  padding-top: .45rem;
+  padding-bottom: 0.1rem; }
+
+#header {
+    background-color: #eaeaea!important;
+}
+
+.myheader {
+  background-color: #eaeaea;
+  background-repeat:no-repeat;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-position:center;
+  width: auto;
+  height: 230px;
+}
+
+@media only screen and (min-width: 700px) and (max-width: 1024px) {
+    .myheader {
+        height: 190px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 700px) {
+    .myheader {
+        height: 150px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .myheader {
+        height: 100px;
+    }
+}
+
+#header #sg-header-title h2 {
+    font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif !important;
+    float: left;
+    letter-spacing: 0;
+    line-height: 48px;
+    margin: 16,6,6,6px;
+    padding: 0;
+    text-decoration: none;
+}
+
+#header {
+    background-color: #fafafa;
+}
+
+#sg-mainmenu .menu > li.active > a, #sg-mainmenu-mobile .menu > li.active > a {
+    background-color: #ffffff;
+}
+
+#header #sg-header-title h2 {
+    color: #5A5A5A;
+}
+
+.topstickypost h3 {
+  color: #666666;
+}
+
+.reminders {
+  margin-top: -10px;
+}
+
+.list-item {
+  margin: 20px 0 20px !important;
+}
