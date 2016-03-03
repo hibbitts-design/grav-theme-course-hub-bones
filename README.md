@@ -1,4 +1,4 @@
-# Course Hub Grav Inherited Theme (based on Bones Vanilla)
+# Course Hub Grav Bones Inherited Theme
 
 ![Course Hub](screenshot.jpg)
 
