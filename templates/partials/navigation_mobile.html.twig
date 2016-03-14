@@ -7,7 +7,7 @@
                 {{ p.menu }}
             </a>
             {% if p.children.visible.count > 0 %}
-                <ul class="vertical menu submenu">
+                <ul class="nested vertical menu">
                     {{ _self.loop(p) }}
                 </ul>
             {% endif %}
@@ -15,8 +15,8 @@
     {% endfor %}
 {% endmacro %}
 
-<nav id="sg-mainmenu">
-  <ul class="{% if theme_config.dropdown.enabled %}dropdown {% endif %}menu"{% if theme_config.dropdown.enabled %} data-dropdown-menu{% endif %}>
+<nav id="sg-mainmenu-mobile">
+  <ul class="vertical menu">
     {% if theme_config.dropdown.enabled %}
       {{ _self.loop(pages) }}
     {% else %}
@@ -34,8 +34,7 @@
     {% if config.site.displaymenuentries.enabled %}
       {% for mitem in site.menu %}
         <li>
-          {# Added newwindow class - hibbittsdesign.org #}
-          <a class="newwindow" href="{{ mitem.url }}">
+          <a href="{{ mitem.url }}">
             {% if mitem.icon %}<i class="fa fa-{{ mitem.icon }}"></i>{% endif %}
             {{ mitem.text }}
           </a>
