@@ -9,3 +9,9 @@
 
 1. [](#new)
     * Added logic to check for bootstrapper plugin status
+
+# v0.1.0
+## 03/14/2016
+
+1. [](#new)
+    * Updated for Bone Vanilla 0.5.2
