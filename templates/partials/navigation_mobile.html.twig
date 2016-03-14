@@ -34,7 +34,8 @@
     {% if config.site.displaymenuentries.enabled %}
       {% for mitem in site.menu %}
         <li>
-          <a href="{{ mitem.url }}">
+          {# Added newwindow class - hibbittsdesign.org #}
+          <a class="newwindow" href="{{ mitem.url }}">
             {% if mitem.icon %}<i class="fa fa-{{ mitem.icon }}"></i>{% endif %}
             {{ mitem.text }}
           </a>
