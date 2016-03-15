@@ -70,38 +70,49 @@
   <div class="list-blog-padding">
 
     {% if page.header.continue_link is sameas(false) %}
-        {{ page.content }}
-        {% if not truncate %}
-          <hr>
-          {# added github link - hibbittsdesign.org #}
-          {% if config.site.github.location == 'page' %}
-            {% include 'partials/github_page_link.html.twig' %}
-            <br>
-          {% endif %}
-          {% set show_prev_next = true %}
-        {% endif %}
-    {% elseif truncate and page.summary != page.content %}
-        {# added summary flag and title icon - hibbittsdesign.org #}
-        <p>{{ page.summary }}</p>
-        <p><a href="{{ page.url }}">View all of {{ page.title }} <i class="fa fa-chevron-right"></i></a></p>
+      {{ page.content }}
+      {% if not truncate %}
         <hr>
-    {% elseif truncate %}
-        {% if page.summary != page.content %}
-            {{ page.content|truncate(550) }}
-        {% else %}
-            {{ page.content }}
-        {% endif %}
-        <p><a href="{{ page.url }}">View all of {{ page.title }} <i class="fa fa-chevron-right"></i></a></p>
-    {% else %}
-        {# added summary flag and github link - hibbittsdesign.org #}
-        {% set content = page.content|slice(page.summary|length) %} {# do not display summary on actual page - hibbittsdesign.org #}
-        {{ content }}
-        <hr>
+        {# added github link - hibbittsdesign.org #}
         {% if config.site.github.location == 'page' %}
           {% include 'partials/github_page_link.html.twig' %}
           <br>
         {% endif %}
         {% set show_prev_next = true %}
+      {% endif %}
+    {% elseif truncate and page.summary != page.content %}
+      {# added summary flag and title icon - hibbittsdesign.org #}
+      <p>{{ page.summary }}</p>
+      <p>
+        <a href="{{ page.url }}">View all of
+          {{ page.title }}
+          <i class="fa fa-chevron-right"></i>
+        </a>
+      </p>
+      <hr>
+    {% elseif truncate %}
+      {% if page.summary != page.content %}
+        {{ page.content|truncate(550) }}
+      {% else %}
+        {{ page.content }}
+      {% endif %}
+      <p>
+        <a href="{{ page.url }}">View all of
+          {{ page.title }}
+          <i class="fa fa-chevron-right"></i>
+        </a>
+      </p>
+    {% else %}
+      {# added summary flag and github link - hibbittsdesign.org #}
+      {% set content = page.content|slice(page.summary|length) %}
+      {# do not display summary on actual page - hibbittsdesign.org #}
+      {{ content }}
+      <hr>
+      {% if config.site.github.location == 'page' %}
+        {% include 'partials/github_page_link.html.twig' %}
+        <br>
+      {% endif %}
+      {% set show_prev_next = true %}
     {% endif %}
 
     {# check content display flag - hibbittsdesign.org #}

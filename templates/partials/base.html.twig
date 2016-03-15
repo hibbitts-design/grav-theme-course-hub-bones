@@ -91,10 +91,10 @@
                   {% if theme_config.site_title.enabled %}
                     <div id="sg-header-title">
                       <a href="{{ base_url == '' ? '/' : base_url }}">
-    	                    {# Special Elite font removed - hibbittsdesign.org #}
-                          {# Text size changed from h3 to h2 - hibbittsdesign.org #}
-                          <h2 style="font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;">{{ config.site.title }}</h2>
-    	                </a>
+                        {# Special Elite font removed - hibbittsdesign.org #}
+                        {# Text size changed from h3 to h2 - hibbittsdesign.org #}
+                        <h2 style="font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;">{{ config.site.title }}</h2>
+                      </a>
                     </div>
                   {% endif %}
                   <div id="navigation" class="{% if theme_config.mobilemenu_breakpoint == 'all' %}hide{% else %}show-for-{{ theme_config.mobilemenu_breakpoint }}{% endif %}">
@@ -128,20 +128,22 @@
 
           {# check content display flag - hibbittsdesign.org #}
           {% if not grav.uri.param('onlydisplaypagecontent') %}
-          {% block footer %}
-          {# added top of page navigation element - hibbittsdesign.org #}
-          <div class="up-arrow">
-              <a href="#" id="top"><i class="fa fa-angle-up"></i></a>
-            </div>
-            <footer id="footer">
-              <div class="row sg-center">
-      			{% set content = pages.find('/footer').content %}
-      			{% if content %}
-      			    {{ content }}
-      			{% endif %}
+            {% block footer %}
+              {# added top of page navigation element - hibbittsdesign.org #}
+              <div class="up-arrow">
+                <a href="#" id="top">
+                  <i class="fa fa-angle-up"></i>
+                </a>
               </div>
-          </footer>
-          {% endblock %}
+              <footer id="footer">
+                <div class="row sg-center">
+                  {% set content = pages.find('/footer').content %}
+                  {% if content %}
+                    {{ content }}
+                  {% endif %}
+                </div>
+              </footer>
+            {% endblock %}
           {% endif %}
 
           {% block bottom %}
