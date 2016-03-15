@@ -15,7 +15,6 @@ dependencies:
   - bones-vanilla
   - admin
   - archives
-  - breadcrumbs
   - email
   - external_links
   - featherlight
