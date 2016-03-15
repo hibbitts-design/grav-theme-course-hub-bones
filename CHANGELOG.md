@@ -11,7 +11,7 @@
     * Added logic to check for bootstrapper plugin status
 
 # v0.1.0
-## 03/14/2016
+## 03/15/2016
 
 1. [](#new)
-    * Updated for Bone Vanilla 0.5.2
+    * Updated for Bones Vanilla 0.5.2 theme release
