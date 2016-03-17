@@ -1,3 +1,9 @@
+# v1.0.1
+## 03/17/2016
+
+1. [](#new)
+    * Added scripts.html.twig file to hold global JavaScript code
+
 # v1.0.0
 ## 03/15/2016
 
