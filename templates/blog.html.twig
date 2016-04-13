@@ -64,16 +64,7 @@
           {# check content display flag - hibbittsdesign.org #}
           {% if not grav.uri.param('onlydisplaypagecontent') %}
             <div id="sidebar" class="medium-4 columns medium-nopaddingright">
-              {#  {% include 'partials/sidebar.html.twig' with {'blog':page} %} #}
-              {% set content = pages.find('/sidebar').content %}
-              {% if content %}
-                <div class="sidebar">
-                  {{ content }}
-                  {% if config.plugins.feed.enabled and config.site.rssbutton.display %}
-                    {% include 'partials/rss_link.html.twig' %}
-                  {% endif %}
-                </div>
-              {% endif %}
+              {% include 'partials/sidebar.html.twig' with {'blog':page} %}
             </div>
           {% endif %}
         </div>

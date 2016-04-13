@@ -1,3 +1,9 @@
+# v1.0.2
+## 04/14/2016
+
+1. [](#new)
+    * Added support for Sidebar plugin widgets display
+
 # v1.0.1
 ## 03/17/2016
 
