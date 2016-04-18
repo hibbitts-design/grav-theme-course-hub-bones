@@ -1,3 +1,9 @@
+# v1.1.0
+## 04/18/2016
+
+1. [](#improved)
+    * Updated navbar styling
+
 # v1.0.3
 ## 04/14/2016
 
