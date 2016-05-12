@@ -28,6 +28,7 @@ dependencies:
   - relatedpages
   - simplesearch
   - taxonomylist
+  - youtube
 
 form:
   validation: loose
