@@ -1,5 +1,5 @@
 name: Course Hub Bones
-version: 1.1.5
+version: 1.2.0
 description: "A customized version of the Bones Vanilla theme (built with Foundation) for use with the Grav Course Hub skeleton package."
 icon: university
 author:
@@ -12,7 +12,6 @@ keywords: bones, theme, foundation, foundation6, core, simple, responsive, basic
 bugs: https://github.com/hibbitts-design/grav-theme-course-hub-bones/issues
 
 dependencies:
-  - bones-vanilla
   - admin
   - archives
   - email
@@ -59,7 +58,7 @@ form:
 
                         theme_links:
                           type: display
-                          label: <p style="padding-left:0;">The <strong>Bones Vanilla</strong> theme is built on <a href="http://foundation.zurb.com/" target="_blank">Zurb Foundation</a> and meant to be customized. Choose the theme options you want and disable the ones you don't. </p><p style="padding-left:0;"><a href="http://demos.smartgravity.com/grav-bones-vanilla/" target="_blank">Grav Bones Vanilla Demo <i class="fa fa-external-link"></i></a></p>
+                          label: <p style="padding-left:0;">The <strong>Course Hub Bones </strong> theme (based on the Bones Vanilla theme) is built on <a href="http://foundation.zurb.com/" target="_blank">Zurb Foundation</a> and meant to be customized. Choose the theme options you want and disable the ones you don't. </p><p style="padding-left:0;"><a href="http://demos.smartgravity.com/grav-bones-vanilla/" target="_blank">Grav Bones Vanilla Demo <i class="fa fa-external-link"></i></a></p>
 
                     column2:
                       type: column
