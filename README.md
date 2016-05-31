@@ -2,7 +2,7 @@
 
 ![Course Hub](screenshot.jpg)
 
-**Course Hub** is a [Grav](http://getgrav.org) inherited theme based on [Bones Vanilla](https://github.com/smartgravity/grav-theme-bones-vanilla), intended to accompany a face-to-face, blended or fully online university course. It also supports a [flipped-LMS approach](http://hibbittsdesign.org/blog/posts/flipped-lms-using-an-open-and-collaborative-platform) using Grav as an open and collaborative Web platform.
+**Course Hub** is a [Grav](http://getgrav.org) child theme based on [Bones Vanilla](https://github.com/smartgravity/grav-theme-bones-vanilla), intended to accompany a face-to-face, blended or fully online university course. It also supports a [flipped-LMS approach](http://hibbittsdesign.org/blog/posts/flipped-lms-using-an-open-and-collaborative-platform) using Grav as an open and collaborative Web platform.
 
 # Features
 
