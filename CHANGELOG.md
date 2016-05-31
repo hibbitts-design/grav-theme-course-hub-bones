@@ -5,9 +5,6 @@
     * To initially support Grav 1.1 Course Hub Bones is now a child theme of Bones Vanilla
     * Updated default.yaml blueprint extends statement to be compatible with Grav 1.1
 
-# v1.1.5
-## 05/28/2016
-
 1. [](#new)
     * Added Twitter timeline settings in site config file
 
