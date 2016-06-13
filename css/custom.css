@@ -1,3 +1,7 @@
+#sg-mainmenu .dropdown.menu .is-dropdown-submenu-parent.is-down-arrow > a::after {
+    top: 13px;
+}
+
 #sg-mainmenu .menu > li > a, #sg-mainmenu .menu > li.active > a {
   color: #5A5A5A;
   background-color: transparent;

@@ -1,3 +1,9 @@
+# v1.2.2
+## 06/13/2016
+
+1. [](#bugfix)
+    * Dropdown menu arrows alignment fixed
+
 # v1.2.1
 ## 06/10/2016
 
