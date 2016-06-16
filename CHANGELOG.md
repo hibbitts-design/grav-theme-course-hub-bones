@@ -1,3 +1,11 @@
+# v1.3.1
+## 06/16/2016
+
+1. [](#improved)
+    * Updated with the most recent versions of Foundation
+1. [](#bugfix)
+    * Twitter sidebar widget URL issue fixed.
+
 # v1.3.0
 ## 06/14/2016
 
