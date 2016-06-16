@@ -1,3 +1,9 @@
+# v1.3.2
+## 06/16/2016
+
+1. [](#bugfix)
+    * Removed test blueprint fix for upcoming 1.1 release.
+
 # v1.3.1
 ## 06/16/2016
 
