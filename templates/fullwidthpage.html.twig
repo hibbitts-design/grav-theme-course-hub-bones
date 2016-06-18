@@ -17,7 +17,7 @@
           {{ page.content }}
           <br>
           {# GitHub link - hibbittsdesign.org #}
-          {% if config.site.github.location == 'page' %}
+          {% if config.site.github.location == 'page' and (not page.header.hidegithublink) %}
             {% include 'partials/github_page_link.html.twig' %}
           {% endif %}
         </div>
