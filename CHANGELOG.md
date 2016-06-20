@@ -1,8 +1,17 @@
+# v1.3.3
+## 06/20/2016
+
+1. [](#improved)
+    * Added header options to hide and change default GitHub edit link
+    * Updated multi-course demo pages
+1. [](#bugfix)
+    * Foundation mobile menu fixes
+
 # v1.3.2
 ## 06/16/2016
 
 1. [](#bugfix)
-    * Removed test blueprint fix for upcoming 1.1 release.
+    * Removed test blueprint fix for upcoming 1.1 release
 
 # v1.3.1
 ## 06/16/2016
@@ -10,7 +19,7 @@
 1. [](#improved)
     * Updated with the most recent versions of Foundation
 1. [](#bugfix)
-    * Twitter sidebar widget URL issue fixed.
+    * Twitter sidebar widget URL issue fixed
 
 # v1.3.0
 ## 06/14/2016
