@@ -1,3 +1,33 @@
+#sg-mainmenu .menu > li.active > a {
+    background-color: #eaeaea !important;
+}
+
+#sg-mainmenu-mobile {
+    background-color: #ffffff;
+}
+
+#sg-mainmenu-mobile .menu.nested > li > a::before {
+    border: medium none;
+    content: "";
+    font: 14px/1 FontAwesome;
+    height: auto;
+    left: 0;
+    margin-left: 0;
+    margin-top: 0;
+    top: 7px;
+    width: auto;
+}
+
+#sg-mainmenu-mobile .menu > li > a {
+    border-color: #fff;
+    background-color: #fff;
+}
+
+.menu .active > a {
+    background: #2199e8 none repeat scroll 0 0;
+    color: #4487db;
+}
+
 .dropdown.menu > li.is-dropdown-submenu-parent > a::after {
     content: '';
     display: block;
@@ -32,7 +62,7 @@
 }
 
 #sg-mainmenu .menu > li.active > a, #sg-mainmenu-mobile .menu > li.active > a {
-    background-color: transparent!important;
+    background-color: transparent;
 }
 
 .sg-header {
