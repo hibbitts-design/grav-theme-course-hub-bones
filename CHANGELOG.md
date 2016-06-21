@@ -1,3 +1,9 @@
+# v1.3.4
+## 06/21/2016
+
+1. [](#improved)
+    * Updated with latest version of Font Awesome
+
 # v1.3.3
 ## 06/20/2016
 
