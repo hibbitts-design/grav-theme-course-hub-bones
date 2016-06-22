@@ -1,3 +1,9 @@
+# v1.3.6
+## 06/22/2016
+
+1. [](#new)
+    * Added setting to suppress the display of home menu link
+
 # v1.3.5
 ## 06/22/2016
 
