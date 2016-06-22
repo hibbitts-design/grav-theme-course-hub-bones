@@ -1,3 +1,9 @@
+# v1.3.5
+## 06/22/2016
+
+1. [](#new)
+    * Added flag to hide page titles
+
 # v1.3.4
 ## 06/21/2016
 
