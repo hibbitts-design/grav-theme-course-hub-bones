@@ -1,3 +1,9 @@
+# v1.3.7
+## 06/27/2016
+
+1. [](#improved)
+    * Updated Twitter embed code
+
 # v1.3.6
 ## 06/22/2016
 
