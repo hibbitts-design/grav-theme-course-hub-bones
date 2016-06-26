@@ -2,7 +2,7 @@
 ## 06/26/2016
 
 1. [](#improved)
-    * Updated Twitter embed code
+    * Updated Twitter widget code
 
 # v1.3.6
 ## 06/22/2016
