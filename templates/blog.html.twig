@@ -9,15 +9,11 @@
 		<div class="blog-header-image" style="background-image: url({{ blog_image.url }});">
 			<div class="row sg-center sg-highlight-light">
 				<div class="sg-content">
-		{% else %}
-		<div class="blog-header">
-			<div class="row sg-center">
-				<div class="sg-content">
-		{% endif %}
 					{{ page.content }}
 				</div>
 			</div>
 		</div>
+		{% endif %}
 
     {% if config.plugins.breadcrumbs.enabled %}
       <div class="sg-breadcrumb">
