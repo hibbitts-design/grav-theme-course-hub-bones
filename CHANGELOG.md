@@ -2,7 +2,7 @@
 ## 07/15/2016
 
 1. [](#bugfix)
-    * Fixed incorrect rendering of blog item including GitHub edit page link
+    * Fixed incorrect rendering of blog item which includes GitHub edit page link
     * Adjusted vertical alignment of font awesome icons for menu items
 
 # v1.4.1
