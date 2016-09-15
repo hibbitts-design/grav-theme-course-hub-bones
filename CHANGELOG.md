@@ -1,3 +1,9 @@
+# v1.4.5
+## 09/15/2016
+
+1. [](#bugfix)
+    * Fixed display issue with 'Featured' post
+
 # v1.4.4
 ## 08/28/2016
 
