@@ -2,7 +2,7 @@
 ## 09/15/2016
 
 1. [](#bugfix)
-    * Fixed display issue with 'Featured' post
+    * Fixed display issue with 'Featured' posts
 
 # v1.4.4
 ## 08/28/2016
