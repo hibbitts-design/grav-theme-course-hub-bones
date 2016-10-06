@@ -21,6 +21,7 @@ dependencies:
   - feed
   - form
   - login
+  - markdown-fontawesome
   - page-inject
   - pagination
   - problems
