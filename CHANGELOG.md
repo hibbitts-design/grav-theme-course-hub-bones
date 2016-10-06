@@ -1,5 +1,5 @@
 # v1.4.6
-## 10/07/2016
+## 10/06/2016
 
 1. [](#new)
     * Added Markdown Font Awesome plugin
