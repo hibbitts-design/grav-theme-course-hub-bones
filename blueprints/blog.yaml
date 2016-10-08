@@ -75,6 +75,20 @@ form:
                 1: Enabled
                 0: Disabled
 
+            coursehub2:
+                type: section
+                title: GitHub/GitLab
+                underline: true
+
+            header.githublink:
+                type: text
+                size: large
+                label: Custom GitHub/GitLab URL for Page
+                help: Custom GitHub/GitLab URL for this page, to override the automatically calculated URL
+                default: null
+                validate:
+                    type: URL
+
         assets:
           type: tab
           title: Assets
