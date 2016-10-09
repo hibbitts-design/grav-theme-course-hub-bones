@@ -22,7 +22,7 @@ form:
 
             header.hidepagetitle:
                 type: toggle
-                label: Display Page Title
+                label: Display Title at top of Page
                 help: Determines if the page title is displayed at the top of a page
                 default: 0
                 highlight: 0
@@ -52,7 +52,7 @@ form:
             header.githublink:
                 type: text
                 size: large
-                label: Custom GitHub/GitLab URL for Page
+                label: Custom GitHub/GitLab Page URL
                 help: Custom GitHub/GitLab URL for this page, to override the automatically calculated URL
                 default: null
                 validate:
