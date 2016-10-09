@@ -45,7 +45,7 @@ form:
               default: 5
               validate:
                 required: true
-                type: number
+                type: integer
                 min: 1
 
             header.content.order.by:
