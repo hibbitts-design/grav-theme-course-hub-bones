@@ -1,3 +1,9 @@
+# v1.5.2
+## 12/27/2016
+
+1. [](#improved)
+    * Updated the names of all Git-related site and page header variables
+
 # v1.5.1
 ## 12/08/2016
 
@@ -8,7 +14,7 @@
 ## 10/17/2016
 
 1. [](#improved)
-    * Updated custom page Blueprints for Course Hub options, including additional GitHub/GitLab page header options
+    * Updated custom page Blueprints for Course Hub options, including additional Git Repository page header options
 
 # v1.4.9
 ## 10/09/2016
