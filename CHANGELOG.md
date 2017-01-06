@@ -1,3 +1,9 @@
+# v1.5.3
+## 01/06/2017
+
+1. [](#improved)
+    * Revised 'Edit in Git' URL calculation to align with other Grav projects.
+
 # v1.5.2
 ## 12/27/2016
 
