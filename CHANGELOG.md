@@ -1,3 +1,9 @@
+# v1.5.6
+## 01/14/2017
+
+1. [](#improved)
+    * Further refined Git Sync plugin config checks
+
 # v1.5.5
 ## 01/13/2017
 
