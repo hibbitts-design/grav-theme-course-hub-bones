@@ -1,3 +1,9 @@
+# v1.5.8
+## 01/25/2017
+
+1. [](#new)
+    * Added Git Sync plugin as dependency
+
 # v1.5.7
 ## 01/14/2017
 
