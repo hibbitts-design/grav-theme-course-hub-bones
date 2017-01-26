@@ -1,3 +1,9 @@
+# v1.5.9
+## 01/26/2017
+
+1. [](#improved)
+    * Updated icon of Edit in Git setup links
+
 # v1.5.8
 ## 01/25/2017
 
