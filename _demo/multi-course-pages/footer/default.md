@@ -13,4 +13,4 @@ Color Palette from RocketTheme's [Xenon Template](http://www.rockettheme.com/joo
 **Glued and stapled together by:**  
 [![SmartGravity - Website Engineering](smartgravity.png?cropResize=132,31){.logo}](http://www.smartgravity.com)  
 
-Course Hub package by [hibbittsdesign.org](http://[hibbittsdesign.org)  
+Course Hub package by [hibbittsdesign.org](http://hibbittsdesign.org)  
