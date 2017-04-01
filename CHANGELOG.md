@@ -1,12 +1,10 @@
 # v1.6.2
 ## 04/01/2017
 
-1. [](#bugfix)
-    * Removed redundant page template
-    * Removed redundant page blueprint
-
 1. [](#improved)
     * Updated Twitter widget settings
+1. [](#bugfix)
+    * Removed unused page blueprint
 
 # v1.6.1
 ## 02/23/2017
