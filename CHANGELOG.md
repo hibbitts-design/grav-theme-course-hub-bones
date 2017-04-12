@@ -1,3 +1,9 @@
+# v1.6.3
+## 04/12/2017
+
+1. [](#bugfix)
+    * Fixed CC License display with Edit this Theme link
+
 # v1.6.2
 ## 04/01/2017
 
