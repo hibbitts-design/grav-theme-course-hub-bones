@@ -24,7 +24,7 @@
           {{ page.content }}
           <br>
           {# Git repository edit link - hibbittsdesign.org #}
-          {% if config.site.gitrepo.editlinklocation == 'page' and (not page.header.hidegitrepoeditlink) %}
+          {% if config.site.gitrepo.editlinklocation == 'page' and not (page.header.hidegitrepoeditlink) and not (page.slug == 'pages') %}
             {% include 'partials/gitrepo_page_link.html.twig' %}
           {% endif %}
         </div>
