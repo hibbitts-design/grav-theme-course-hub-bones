@@ -1,3 +1,9 @@
+# v1.6.5
+## 05/13/2017
+
+1. [](#new)
+    * Added Markdown Notices plugin dependency
+
 # v1.6.4
 ## 05/03/2017
 
