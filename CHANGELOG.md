@@ -1,3 +1,9 @@
+# v1.6.8
+## XX/XX/2017
+
+1. [](#improved)
+    * Adjusted demo content default footer text
+
 # v1.6.7
 ## 05/27/2017
 
