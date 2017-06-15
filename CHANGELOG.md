@@ -3,8 +3,10 @@
 
 1. [](#new)
     * Added option to hide site navigation elements (useful when embedding pages into another system, e.g. LMS)
+    * Added option to customize View/Edit in Git introductory text
 1. [](#improved)
     * Adjusted demo content default footer text
+    * Broadened support for 'onlydisplaypagecontent' URL flag
 
 # v1.6.7
 ## 05/27/2017
