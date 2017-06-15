@@ -41,7 +41,7 @@
   </head>
 
   {# check content display flag - hibbittsdesign.org #}
-  {% if not grav.uri.param('onlydisplaypagecontent') %}
+  {% if not (grav.uri.param('onlydisplaypagecontent')) and (not config.site.chromeless.enabled) %}
     {# Check and display for header image above navbar - hibbittsdesign.org#}
     {# multi-course hub compatibility - hibbittsdesign.org #}
     {% set arrayofpath = uri.path|split('/') %}
@@ -87,7 +87,7 @@
         </div>
 
         {# check content display flag - hibbittsdesign.org #}
-        {% if not grav.uri.param('onlydisplaypagecontent') %}
+        {% if not (grav.uri.param('onlydisplaypagecontent')) and (not config.site.chromeless.enabled) %}
           <div class="off-canvas-content" data-off-canvas-content>
 
             {% block header %}
@@ -141,7 +141,7 @@
           {% endblock %}
 
           {# check content display flag - hibbittsdesign.org #}
-          {% if not grav.uri.param('onlydisplaypagecontent') %}
+          {% if not (grav.uri.param('onlydisplaypagecontent')) and (not config.site.chromeless.enabled) %}
             {% block footer %}
               {# added top of page navigation element - hibbittsdesign.org #}
               <div class="up-arrow">

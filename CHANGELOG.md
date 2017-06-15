@@ -1,6 +1,8 @@
 # v1.6.8
 ## XX/XX/2017
 
+1. [](#new)
+    * Added option to hide site navigation elements (useful when embedding pages into another system, e.g. LMS)
 1. [](#improved)
     * Adjusted demo content default footer text
 

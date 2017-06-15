@@ -112,13 +112,13 @@
       <hr>
       {% if config.site.gitrepo.editlinklocation == 'page' and not (page.header.hidegitrepoeditlink) and not (page.slug == 'pages') %}
         {% include 'partials/gitrepo_page_link.html.twig' %}
-        <br>
+        <br><br>
       {% endif %}
       {% set show_prev_next = true %}
     {% endif %}
 
     {# check content display flag - hibbittsdesign.org #}
-    {% if not grav.uri.param('onlydisplaypagecontent') %}
+    {% if not (grav.uri.param('onlydisplaypagecontent'))  %}
       {% if show_prev_next %}
         <p class="prev-next sg-center">
           {# swapped button order  - hibbittsdesign.org #}
