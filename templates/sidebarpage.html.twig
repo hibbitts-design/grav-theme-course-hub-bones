@@ -12,7 +12,7 @@
 
     <div class="blog-content-item row">
       {# check content display flag - hibbittsdesign.org #}
-      {% if not (grav.uri.param('onlydisplaypagecontent')) and (not config.site.chromeless.enabled) %}
+      {% if not (grav.uri.param('onlydisplaypagecontent')) %}
         <div id="item" class="medium-8 columns medium-nopaddingleft">
         {% else %}
           <div id="item" class="medium-12 columns medium-nopaddingleft">
@@ -29,7 +29,7 @@
           {% endif %}
         </div>
         {# check content display flag - hibbittsdesign.org #}
-        {% if not (grav.uri.param('onlydisplaypagecontent')) and (not config.site.chromeless.enabled) %}
+        {% if not (grav.uri.param('onlydisplaypagecontent')) %}
           <div id="sidebar" class="medium-4 columns medium-nopaddingright">
             {% include 'partials/sidebar.html.twig' with {'blog':page} %}
           </div>
