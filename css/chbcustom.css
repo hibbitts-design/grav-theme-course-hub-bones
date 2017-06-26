@@ -1,5 +1,5 @@
 /* unvisited link */
-#body a:link:not(.button) {
+#body a:link:not(.button), #footer a:link:not(.button) {
       color: #008EE2;
       text-decoration: none;
       line-height: inherit;
@@ -7,18 +7,18 @@
 }
 
 /* visited link */
-#body a:visited:not(.button) {
+#body a:visited:not(.button), #footer a:visited:not(.button) {
     color: #008EE2;
 }
 
 /* mouse over link */
-#body a:hover:not(.button) {
+#body a:hover:not(.button), #footer a:hover:not(.button) {
     color: #008EE2;
     text-decoration: underline;
 }
 
 /* selected link */
-#body a:active:not(.button) {
+#body a:active:not(.button), #footer a:active:not(.button) {
     color: #006EAF;
 }
 

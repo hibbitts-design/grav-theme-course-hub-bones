@@ -1,3 +1,9 @@
+# v1.7.1
+## 06/26/2017
+
+1. [](#bugfix)
+    * Fixed appearance of links within footer area
+
 # v1.7.0
 ## 06/26/2017
 
