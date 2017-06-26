@@ -1,3 +1,27 @@
+/* unvisited link */
+#body a:link:not(.button) {
+      color: #008EE2;
+      text-decoration: none;
+      line-height: inherit;
+      cursor: pointer;
+}
+
+/* visited link */
+#body a:visited:not(.button) {
+    color: #008EE2;
+}
+
+/* mouse over link */
+#body a:hover:not(.button) {
+    color: #008EE2;
+    text-decoration: underline;
+}
+
+/* selected link */
+#body a:active:not(.button) {
+    color: #006EAF;
+}
+
 #sg-mainmenu .menu > li.active > a {
     background-color: #eaeaea !important;
 }
