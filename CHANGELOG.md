@@ -1,3 +1,9 @@
+# v1.7.2
+## 07/03/2017
+
+1. [](#new)
+    * Added 'chromeless' alias for 'onlydisplaypagecontent' URL flag
+
 # v1.7.1
 ## 06/26/2017
 
