@@ -109,7 +109,7 @@
     {% endif %}
 
     {# check content display flag - hibbittsdesign.org #}
-    {% if not (grav.uri.param('onlydisplaypagecontent') or grav.uri.param('chromeless')) %}
+    {% if not (grav.uri.param('chromeless')) %}
       {% if show_prev_next %}
         <p class="prev-next sg-center">
           {# swapped button order  - hibbittsdesign.org #}
