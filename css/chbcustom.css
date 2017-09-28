@@ -149,6 +149,23 @@
     }
 }
 
+.checklist ul {
+  list-style: none;
+  margin-top: -1em;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.checklist li {
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
+.checklist li:before {
+  content: '\2713';
+  padding-right: 5px;
+}
+
 #sg-mainmenu .menu > li.active > a, #sg-mainmenu-mobile .menu > li.active > a {
     background-color: #ffffff;
 }
