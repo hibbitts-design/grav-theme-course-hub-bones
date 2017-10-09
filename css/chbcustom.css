@@ -169,6 +169,7 @@
 .image-credit-wrapper {
 overflow: hidden;
 position: relative;
+max-width: 960px;
 }
 
 .image-credit-wrapper .image-credit {
