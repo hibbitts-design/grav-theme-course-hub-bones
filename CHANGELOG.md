@@ -1,8 +1,8 @@
 # v1.7.9
-## XX/XX/XXXX
+## 10/11/2017
 
 1. [](#bugfix)
-    * 'featured' posts are now only displayed on their parent blog page
+    * 'featured' posts are now only displayed on their parent blog page (to support multiple blogs on one site)
 
 # v1.7.8
 ## 10/09/2017
