@@ -27,7 +27,10 @@
           <br>
           {# Git repository edit link - hibbittsdesign.org #}
           {% if config.site.gitrepo.editlinklocation == 'page' and not (page.header.hidegitrepoeditlink) and not (page.slug == 'pages') %}
-            {% include 'partials/gitrepo_page_link.html.twig' %}
+            <span style="color: #888888;">
+            <p>{{ config.site.gitrepo.editnotetext }}
+            {% include 'partials/gitrepo_link.html.twig' %}
+            </p>
           {% endif %}
         </div>
         {# check content display flag - hibbittsdesign.org #}

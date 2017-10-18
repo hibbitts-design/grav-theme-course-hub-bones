@@ -84,8 +84,10 @@
         <hr>
         {# added Git repository edit link - hibbittsdesign.org #}
         {% if config.site.gitrepo.editlinklocation == 'page' and not (page.header.hidegitrepoeditlink) and not (page.slug == 'pages') %}
-          {% include 'partials/gitrepo_page_link.html.twig' %}
-          <br>
+          <span style="color: #888888;">
+          <p>{{ config.site.gitrepo.editnotetext }}
+          {% include 'partials/gitrepo_link.html.twig' %}
+          </p>
         {% endif %}
         {% set show_prev_next = true %}
       {% else %}
@@ -120,8 +122,10 @@
       {{ content }}
       <hr>
       {% if config.site.gitrepo.editlinklocation == 'page' and not (page.header.hidegitrepoeditlink) and not (page.slug == 'pages') %}
-        {% include 'partials/gitrepo_page_link.html.twig' %}
-        <br><br>
+        <span style="color: #888888;">
+        <p>{{ config.site.gitrepo.editnotetext }}
+        {% include 'partials/gitrepo_link.html.twig' %}
+        </p>
       {% endif %}
       {% set show_prev_next = true %}
     {% endif %}
