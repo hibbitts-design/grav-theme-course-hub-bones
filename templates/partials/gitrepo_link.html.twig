@@ -37,11 +37,11 @@
       {% set gitrepoeditlinkurl = (git_sync_repo_link|replace({'.git':'/'})) ~ 'blob/master' ~ (page.filePathClean)|replace({'user/':'/'}) %}
     {% elseif 'bitbucket' in git_sync_repo_link %}
       {% set gitrepolinkicon = "bitbucket" %}
-      {% set gitrepoeditlinkurl = (git_sync_repo_link|replace({'.git':'/'})) %}
+      {% set gitrepoeditlinkurl = (git_sync_repo_link|replace({'.git':'/'})) ~ 'src/master' ~ (page.filePathClean)|replace({'user/':'/'}) %}
     {% else %}
-	   {% set gitrepolinkicon = "git" %}
-     {% set gitrepoeditlinkurl = (git_sync_repo_link|replace({'.git':'/'})) %}
-	{% endif %}
+	    {% set gitrepolinkicon = "git" %}
+      {% set gitrepoeditlinkurl = (git_sync_repo_link|replace({'.git':'/'})) ~ 'blob/master/' ~ (page.filePathClean)|replace({'user/':'/'}) %}
+	  {% endif %}
     {% if config.site.gitrepo.editlinkicon %}
     		{% set gitrepolinkicon = config.site.gitrepo.editlinkicon %}
   	{% endif %}
