@@ -21,11 +21,8 @@
           {{ page.content }}
           <br>
           {# Git repository edit link - hibbittsdesign.org #}
-          {% if config.site.gitrepo.editlinklocation == 'page' and not (page.header.hidegitrepoeditlink) and not (page.slug == 'pages') %}
-            <span style="color: #888888;">
-            <p>{{ config.site.gitrepo.editnotetext }}
-            {% include 'partials/gitrepo_link.html.twig' %}
-            </p>
+          {% if config.site.gitrepo.editlinklocation == 'page' and not (page.header.hidegitrepoeditlink) %}
+            {% include 'partials/gitrepo_link_note.html.twig' %}
           {% endif %}
         </div>
         {# removed sidebar rendering - hibbittsdesign.org #}

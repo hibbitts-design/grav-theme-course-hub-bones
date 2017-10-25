@@ -82,12 +82,9 @@
       {{ page.content }}
       {% if not truncate %}
         <hr>
-        {# added Git repository edit link - hibbittsdesign.org #}
-        {% if config.site.gitrepo.editlinklocation == 'page' and not (page.header.hidegitrepoeditlink) and not (page.slug == 'pages') %}
-          <span style="color: #888888;">
-          <p>{{ config.site.gitrepo.editnotetext }}
-          {% include 'partials/gitrepo_link.html.twig' %}
-          </p>
+        {# Git repository edit link - hibbittsdesign.org #}
+        {% if config.site.gitrepo.editlinklocation == 'page' and not (page.header.hidegitrepoeditlink) %}
+          {% include 'partials/gitrepo_link_note.html.twig' %}
         {% endif %}
         {% set show_prev_next = true %}
       {% else %}
@@ -121,11 +118,9 @@
       {# do not display summary on actual page - hibbittsdesign.org #}
       {{ content }}
       <hr>
-      {% if config.site.gitrepo.editlinklocation == 'page' and not (page.header.hidegitrepoeditlink) and not (page.slug == 'pages') %}
-        <span style="color: #888888;">
-        <p>{{ config.site.gitrepo.editnotetext }}
-        {% include 'partials/gitrepo_link.html.twig' %}
-        </p>
+      {# Git repository edit link - hibbittsdesign.org #}
+      {% if config.site.gitrepo.editlinklocation == 'page' and not (page.header.hidegitrepoeditlink) %}
+        {% include 'partials/gitrepo_link_note.html.twig' %}
       {% endif %}
       {% set show_prev_next = true %}
     {% endif %}
