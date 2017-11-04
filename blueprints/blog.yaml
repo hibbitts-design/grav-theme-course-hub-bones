@@ -75,6 +75,16 @@ form:
                 1: Enabled
                 0: Disabled
 
+            coursehub1:
+                type: section
+                title: Page Metadata
+                underline: true
+
+            header.metadata:
+               type: array
+               label: Metadata Items
+               required: true
+
             coursehub2:
                 type: section
                 title: Git Repository
