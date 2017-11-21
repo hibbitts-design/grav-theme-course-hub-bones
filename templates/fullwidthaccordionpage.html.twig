@@ -1,0 +1,51 @@
+{# new twig template file - hibbittsdesign.org #}
+{% embed 'partials/base.html.twig' %}
+
+  {% block content %}
+    <div class="blog-content-item row">
+        <div id="item" class="medium-12 columns medium-nopaddingleft">
+        {% if not page.header.hide_page_title %}
+          <h3>{{page.title}}</h3>
+        {% else %}
+          <h3 aria-label={{page.title}}></h3>
+        {% endif %}
+
+        <ul class="accordion" data-allow-all-closed="true" data-multi-expand="true" data-accordion role="tablist">
+
+          {% set collection = page.collection() %}
+          {% for page in page.collection() %}
+          {% set index = 1 %}
+
+            {% if page.children %}
+
+                <li class="accordion-navigation">
+                  <a href="#panel{{index}}" role="tab" class="accordion-title" id="panel{{index}}-heading" aria-controls="panel{{index}}">{{ page.title }}</a>
+
+                  <div id="panel{{index}}" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="panel{{index}}-heading">
+
+                    {% for child in page.children %}
+                      {{ child.content }}
+                    {% endfor %}
+
+                  </div>
+
+                </li>
+
+            {% endif %}
+
+            {% set index = index + 1 %}
+
+          {% endfor %}
+        </ul>
+
+        <br>
+        {# Git repository edit link - hibbittsdesign.org #}
+        {% if config.site.gitrepo.editlinklocation == 'page' and not (page.header.hide_git_sync_repo_link) %}
+          {% include 'partials/gitrepo_link_note.html.twig' %}
+        {% endif %}
+
+    </div>
+  </div>
+  {% endblock %}
+
+{% endembed %}

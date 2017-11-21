@@ -1,0 +1,71 @@
+{# new twig template file based on existing item twig template file - hibbittsdesign.org #}
+{% embed 'partials/base.html.twig' %}
+
+  {% block content %}
+    {% if config.plugins.breadcrumbs.enabled %}
+      <div class="sg-breadcrumb">
+        <div class="row">
+          {% include 'partials/breadcrumbs.html.twig' %}
+        </div>
+      </div>
+    {% endif %}
+
+    <div class="blog-content-item row">
+      {# check content display flag - hibbittsdesign.org #}
+      {% if not (grav.uri.param('chromeless')) %}
+        <div id="item" class="medium-8 columns medium-nopaddingleft">
+        {% else %}
+          <div id="item" class="medium-12 columns medium-nopaddingleft">
+          {% endif %}
+          {# remove rendering by external twig template - hibbittsdesign.org #}
+          {% if not page.header.hide_page_title %}
+          <h3>{{page.title}}</h3>
+          {% else %}
+           <h3 aria-label={{page.title}}></h3>
+          {% endif %}
+
+          <ul class="accordion" data-allow-all-closed="true" data-multi-expand="true" data-accordion role="tablist">
+
+            {% set collection = page.collection() %}
+            {% for page in page.collection() %}
+            {% set index = 1 %}
+
+              {% if page.children %}
+
+                  <li class="accordion-navigation">
+                    <a href="#panel{{index}}" role="tab" class="accordion-title" id="panel{{index}}-heading" aria-controls="panel{{index}}">{{ page.title }}</a>
+
+                    <div id="panel{{index}}" class="accordion-content" role="tabpanel" data-tab-content aria-labelledby="panel{{index}}-heading">
+
+                      {% for child in page.children %}
+                        {{ child.content }}
+                      {% endfor %}
+
+                    </div>
+
+                  </li>
+
+              {% endif %}
+
+              {% set index = index + 1 %}
+
+            {% endfor %}
+          </ul>
+
+          <br>
+          {# Git repository edit link - hibbittsdesign.org #}
+          {% if config.site.gitrepo.editlinklocation == 'page' and not (page.header.hide_git_sync_repo_link) %}
+            {% include 'partials/gitrepo_link_note.html.twig' %}
+          {% endif %}
+        </div>
+
+        {# check content display flag - hibbittsdesign.org #}
+        {% if not (grav.uri.param('chromeless')) %}
+          <div id="sidebar" class="medium-4 columns medium-nopaddingright">
+            {% include 'partials/sidebar.html.twig' with {'blog':page} %}
+          </div>
+        {% endif %}
+      </div>
+    {% endblock %}
+
+  {% endembed %}
