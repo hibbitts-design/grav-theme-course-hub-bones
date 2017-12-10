@@ -1,3 +1,9 @@
+# v1.9.51
+## 12/10/2017
+
+1. [](#bugfix)
+    * Fixed example embedded slides and associated HTML and PDF links
+
 # v1.9.5
 ## 12/04/2017
 
