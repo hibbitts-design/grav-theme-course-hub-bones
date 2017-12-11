@@ -1,6 +1,8 @@
 # v1.9.6
 ## 12/11/2017
 
+1. [](#improved)
+    * Updated course hub demo pages in theme '_demo' folder
 1. [](#bugfix)
     * Fixed example embedded slides and associated HTML and PDF links
 
