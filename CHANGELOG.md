@@ -1,3 +1,15 @@
+# v1.9.71
+## 12/14/2017
+
+1. [](#new)
+    * Added swipe deck page template
+    * Added swipe deck link only page template
+    * Added swipe figure CSS for embedded slide decks
+1. [](#improved)
+    * Updated embed.ly card link only page template
+1. [](#bugfix)
+    * Fixed Git Sync link template custom icon issue
+
 # v1.9.7
 ## 12/12/2017
 
