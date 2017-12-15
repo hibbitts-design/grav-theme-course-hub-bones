@@ -1,5 +1,5 @@
 name: Course Hub Bones
-version: 1.9.71
+version: 1.9.72
 description: "A customized version of the Bones Vanilla theme (built with Foundation) for use with the Grav Course Hub skeleton package."
 icon: university
 author:
@@ -187,7 +187,7 @@ form:
               label: Mobile Menu Breakpoint
               classes: fancy
               size: small
-              default: medium
+              default: large
               options:
                 'large': 'Large'
                 'medium': 'Medium'
