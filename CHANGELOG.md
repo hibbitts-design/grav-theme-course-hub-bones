@@ -1,3 +1,11 @@
+# v1.9.72
+## 12/15/2017
+
+1. [](#improved)
+    * Changed mobile menu breakpoint to better accomodate a larger number of Menubar items
+1. [](#bugfix)
+    * Fixed issue of hiding Homepage link in Menubar option
+
 # v1.9.71
 ## 12/14/2017
 
