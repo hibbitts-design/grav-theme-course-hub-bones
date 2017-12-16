@@ -1,3 +1,9 @@
+# v1.9.73
+## 12/16/2017
+
+1. [](#bugfix)
+    * Fixed outstanding template issue for multi-course setup
+
 # v1.9.72
 ## 12/15/2017
 
