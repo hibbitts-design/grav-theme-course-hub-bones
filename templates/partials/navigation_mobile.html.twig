@@ -19,7 +19,7 @@
 
 <nav id="sg-mainmenu-mobile">
 <ul class="vertical menu">
-  {% if theme_config.dropdown.enabled %}
+  {% if config.theme.dropdown.enabled %}
     {{ _self.loop(pages, config) }}
   {% else %}
     {% for page in pages.children.visible %}

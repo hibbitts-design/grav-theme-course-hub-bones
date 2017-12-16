@@ -18,8 +18,8 @@
 {% endmacro %}
 
 <nav id="sg-mainmenu">
-<ul class="{% if theme_config.dropdown.enabled %}dropdown {% endif %}menu" {% if theme_config.dropdown.enabled %} data-dropdown-menu{% endif %}>
-  {% if theme_config.dropdown.enabled %}
+<ul class="{% if config.theme.dropdown.enabled %}dropdown {% endif %}menu" {% if config.theme.dropdown.enabled %} data-dropdown-menu{% endif %}>
+  {% if config.theme.dropdown.enabled %}
     {{ _self.loop(pages, config) }}
   {% else %}
     {% for page in pages.children.visible %}
